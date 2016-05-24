@@ -1,0 +1,45 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "in.flinbor.github.publicRepositories"
+        minSdkVersion 14
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    buildTypes.each {
+        /**
+         * github access token, set from gradle.properties
+         */
+        it.buildConfigField 'String', 'ACCESS_TOKEN', AccessToken
+    }
+    productFlavors {
+        minSdkVersion22 {//for faster compilation
+            minSdkVersion 22
+        }
+        minSdkVersion14 {
+            minSdkVersion 14
+        }
+    }
+}
+
+ext {
+    supportLibraryVersion = '23.4.0'
+}
+
+dependencies {
+    compile "com.android.support:appcompat-v7:"     + supportLibraryVersion
+    compile "com.android.support:design:"           + supportLibraryVersion
+    compile "com.android.support:cardview-v7:"      + supportLibraryVersion
+    compile 'com.google.code.gson:gson:2.6.2'
+}

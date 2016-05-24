@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- font sizes -->
+    <dimen name="font.larger"   >22sp</dimen>
+    <dimen name="font.large"    >18sp</dimen>
+    <dimen name="font.normal"   >15sp</dimen>
+    <dimen name="font.small"    >12sp</dimen>
+
+    <!-- typical spacing between two views -->
+    <dimen name="spacing.huge"  >40dp</dimen>
+    <dimen name="spacing.large" >24dp</dimen>
+    <dimen name="spacing.normal">14dp</dimen>
+    <dimen name="spacing.small" >10dp</dimen>
+    <dimen name="spacing.tiny"  >4dp</dimen>
+
+</resources>

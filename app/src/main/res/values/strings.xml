@@ -1,0 +1,5 @@
+<resources>
+    <string name="appname">All public repositories</string>
+    <string name="dialog.open.website.title">Opened in the browser</string>
+    <string name="warn.internet.no.connection">no internet connection</string>
+</resources>

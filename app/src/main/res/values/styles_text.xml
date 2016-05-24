@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ContentText">
+        <item name="android:textSize"   >@dimen/font.normal</item>
+        <item name="android:textColor"  >@color/gray</item>
+        <item name="android:textStyle"  >italic</item>
+        <item name="android:ellipsize"  >end</item>
+    </style>
+
+    <style name="ContentTextSecondary">
+        <item name="android:textSize"   >@dimen/font.small</item>
+        <item name="android:textColor"  >@color/gray</item>
+        <item name="android:textStyle"  >italic</item>
+        <item name="android:ellipsize"  >end</item>
+    </style>
+
+    <style name="HeaderText">
+        <item name="android:textSize"   >@dimen/font.large</item>
+        <item name="android:textColor"  >@color/gray</item>
+        <item name="android:textStyle"  >bold</item>
+        <item name="android:ellipsize"  >end</item>
+        <item name="android:maxLines"   >1</item>
+    </style>
+
+</resources>
