@@ -3,6 +3,8 @@
 <p><b>Application fetch list all public repositories from GitHub and show in list</b></p>
 API: https://developer.github.com/v3/repos/
 
+<p><img src="https://raw.githubusercontent.com/Flinbor/GitHubAllPublicRepositories/master/screenshot/device-2016-05-25-005800.png" alt="screen" width="200" height="400"></p>
+
 <p>
 <ol>
 <li>Application fetches data from https://api.github.com/repositories</li>
